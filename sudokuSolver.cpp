@@ -119,7 +119,6 @@ for(int row = 0; row < 9; row++){
 }
 cout << endl;
 
-
 //Solved board output
 if(hydraSoduku() == true){
 cout << "Puzzle Sovled!" << endl;
