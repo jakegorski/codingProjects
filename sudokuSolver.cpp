@@ -106,14 +106,6 @@ for(int row = 0; row < 9; row++){
    for(int col = 0; col < 9; col++){
       fin >> board[row][col];
 
-/*
-   Here is where I kept trying to output a "-" instead of a "0"
-   If you see where I could've made it work please let me know!
-
-      if(board[row][col] == 0){
-         cout << "-";
-      }
-*/
       if(col == 3 || col == 6)
       cout << " ";
       cout << board[row][col] << " ";
