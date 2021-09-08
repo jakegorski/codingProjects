@@ -85,6 +85,6 @@ int main(){
     for(int i = 0; i < students.size(); i++){
         cout << students[i] << "\t" "\t" "\t" << abs(countAssigments[students[i]] - 9) << endl;
     }
-    
+     
     return 0;
 }
